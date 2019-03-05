@@ -25,3 +25,7 @@ jenkins:
         TILLER_NAMESPACE: kube-system
   enabled: null
 prow: {}
+jx-environment-variables:
+  env:
+    - name: BRANCH_NAME
+      value: "i am in production!"
